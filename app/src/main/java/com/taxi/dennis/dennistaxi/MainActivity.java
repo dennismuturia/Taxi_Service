@@ -1,6 +1,6 @@
 package com.taxi.dennis.dennistaxi;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -9,7 +9,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     //variable for signing in
     private static final int RC_SIGN_IN = 123;
 

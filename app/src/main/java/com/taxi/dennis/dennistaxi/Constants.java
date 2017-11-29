@@ -5,4 +5,5 @@ package com.taxi.dennis.dennistaxi;
  */
 
 public class Constants {
+    public static final String GoogleMapApi = BuildConfig.GoogleMapApi;
 }
